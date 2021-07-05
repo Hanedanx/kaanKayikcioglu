@@ -4,4 +4,5 @@ dosya=open("kaan.json","r")
 json_dosya=json.load(dosya)
 print("Adım    :",json_dosya["ad"])
 print("Soyadım :",json_dosya["soyad"])
-
+print("Hocam ben ödevden kaç aldım. Mezun olur muyum?")
+print("Kimlik anahtar değeri : ",json_dosya["kimlik"])
